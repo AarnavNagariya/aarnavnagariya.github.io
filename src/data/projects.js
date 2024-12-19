@@ -42,7 +42,7 @@ const data = [
   {
     title: 'A-Shell',
     subtitle: 'Custom Shell',
-    image: '/images/projects/nearestdollar.jpg',
+    image: '/images/projects/shell.png',
     date: '2022-11-01',
     desc:
       'A functional Linux shell using C programming language. '
@@ -53,7 +53,7 @@ const data = [
   {
     title: 'E-Commerce Product Recommendation system',
     subtitle: 'Product Recommendation System',
-    image: '/images/projects/nearestdollar.jpg',
+    image: '/images/projects/product.jpg',
     date: '2024-08-01',
     desc:
       'Product recommendation system using NLP and Retrieval-Augmented Generation (RAG)'
@@ -62,19 +62,9 @@ const data = [
       + 'by the semantic meaning.',
   },
   {
-    title: 'Self-Adaptive ML based circuit',
-    subtitle: 'Autonomously Adaptive Circuit',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2022-03-01',
-    desc:
-      'Leveraged deep learning and Recurrent Neural Networks (RNNs) to model'
-      + 'dynamic responses to physical conditions.'
-      + ' Designed circuits that autonomously adapt to varying conditions.',
-  },
-  {
     title: 'Decoding Mental Processes from FMRI images',
     subtitle: 'Neural Network based prediction model for FMRI images',
-    image: '/images/projects/nearestdollar.jpg',
+    image: '/images/projects/brain.jpeg',
     date: '2024-05-01',
     desc:
       'Utilized an existing neural network model (by replicating the following '
@@ -85,7 +75,7 @@ const data = [
   {
     title: 'Contextual Text Clustering and labelling',
     subtitle: 'BERT based Text Clustering',
-    image: '/images/projects/nearestdollar.jpg',
+    image: '/images/projects/cluster.jpeg',
     date: '2024-10-01',
     desc:
       'Developed a text clustering system using BERT embedding and K-Means algorithm'
@@ -94,7 +84,7 @@ const data = [
       + ' of label classification and classified the labels for clusters.',
   },
   {
-    title: 'RAG based Document Formatter',
+    title: 'Retrieval-augmented generation (RAG) based Document Formatter',
     subtitle: 'Formatting Documents using Gemini',
     image: '/images/projects/nearestdollar.jpg',
     date: '2024-11-01',
