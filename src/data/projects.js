@@ -86,7 +86,7 @@ const data = [
   {
     title: 'Retrieval-augmented generation (RAG) based Document Formatter',
     subtitle: 'Formatting Documents using Gemini',
-    image: '/images/projects/nearestdollar.jpg',
+    image: '/images/projects/rag_.png',
     date: '2024-11-01',
     desc:
       'Developed a document formatting system using Retrieval-Augmented Generation (RAG)'
@@ -97,7 +97,7 @@ const data = [
   {
     title: 'Image Recoloring using Color Clustering and Harmonization',
     subtitle: 'GMM based Photo Recoloring and Harmonization',
-    image: '/images/projects/nearestdollar.jpg',
+    image: '/images/projects/dip.png',
     date: '2024-12-01',
     desc:
       'Developed a photo recoloring system using Gaussian Mixture Models (GMM)'
