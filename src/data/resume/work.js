@@ -13,8 +13,8 @@
  */
 const work = [
   {
-    name: 'Promptfoo',
-    position: 'Co-founder & CTO',
+    name: 'iHub-Data',
+    position: 'Research Assistant',
     url: 'https://promptfoo.dev',
     startDate: '2024-07-01',
     summary: 'Promptfoo builds open-source tools to evaluate, find, and fix vulnerabilities in large language models (LLMs). Our open-source tools are used by over 35,000 developers and researchers worldwide.',
