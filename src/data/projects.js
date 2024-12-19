@@ -3,7 +3,7 @@ const data = [
   {
     title: 'VR-Phore',
     subtitle: 'VR based alternative for Synoptophore',
-    image: '/images/projects/nearestdollar.jpg',
+    image: '/images/projects/vrphore_.png',
     date: '2024-12-04',
     desc:
       'Innovated a simulation of the synoptophore device using the Unity engine'
@@ -13,7 +13,7 @@ const data = [
   {
     title: 'Ray Optics Simulation',
     subtitle: 'Research Project',
-    image: '/images/projects/nearestdollar.jpg',
+    image: '/images/projects/rayoptics.jpg',
     date: '2024-09-01',
     desc:
       'Created an interactive ray optics simulation in Unity engine for children,'
@@ -23,7 +23,7 @@ const data = [
   {
     title: 'G-Reddit',
     subtitle: 'Reddit Clone',
-    image: '/images/projects/nearestdollar.jpg',
+    image: '/images/projects/grediiit.png',
     date: '2023-05-01',
     desc:
       'A social media website, similar to that of Reddit with all the necessary functionalities'
@@ -32,7 +32,7 @@ const data = [
   {
     title: '64-bit Y86 Processor Architecture',
     subtitle: 'Custom 64-bit Y86 Processor',
-    image: '/images/projects/nearestdollar.jpg',
+    image: '/images/projects/y86.png',
     date: '2023-09-01',
     desc:
       'Designed a 64-bit Y86 architecture processor in Verilog, and'
