@@ -32,4 +32,4 @@
 | Beri's Bistro              | 6.5           | 3                      |
 | Renao                      | 6.5           | 7                      |
 | Brew and Blends            | 6             | 1                      |
-| Burma Burma                | -             | -                      |
+| Burma Burma                | 6.5             | 7                      |

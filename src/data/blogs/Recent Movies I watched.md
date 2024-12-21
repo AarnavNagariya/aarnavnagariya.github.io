@@ -17,3 +17,5 @@
 | The Date Movie             | 6             | 5                      | 💻                   |
 | Stree 2                    | 8             | 8                      | 🍿                   |
 | I Want to Talk             | 6             | 7                      | 🍿                   |
+| Kabir Singh                | 5             | 7                      | 💻                   |
+| Lucky Bhaskar              | 7             | 8                      | 💻                   |
