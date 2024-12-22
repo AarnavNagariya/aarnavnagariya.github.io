@@ -1,4 +1,4 @@
-# Here are few Screenshots I took from the Game Gris
+# Here are few Screenshots I took from the Game "Uncharted : Lost Legacy"
 
 <img src="../images/gallery/uncharted_lost/1.jpg" style="max-width: 100%; height: auto;">
 <img src="../images/gallery/uncharted_lost/2.jpg" style="max-width: 100%; height: auto;">

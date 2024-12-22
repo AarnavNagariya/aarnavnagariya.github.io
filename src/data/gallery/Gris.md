@@ -1,4 +1,4 @@
-# Here are few Screenshots I took from the Game Gris
+# Here are few Screenshots I took from the Game "Gris"
 
 <img src="../images/gallery/gris/1.png" style="max-width: 100%; height: auto;">
 <img src="../images/gallery/gris/3.png" style="max-width: 100%; height: auto;">
