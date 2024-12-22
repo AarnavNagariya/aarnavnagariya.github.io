@@ -1,11 +1,11 @@
 # Here are few Screenshots I took from the Game Gris
 
-<img src="../images/Gris/1.png" width="800">
-<img src="../images/Gris/3.png" width="800">
-<img src="../images/Gris/4.png" width="800">
-<img src="../images/Gris/6.png" width="800">
-<img src="../images/Gris/7.png" width="800">
-<img src="../images/Gris/9.png" width="800">
-<img src="../images/Gris/11.png" width="800">
-<img src="../images/Gris/12.png" width="800">
-<img src="../images/Gris/14.png" width="800">
+<img src="../images/gallery/gris/1.png" style="max-width: 100%; height: auto;">
+<img src="../images/gallery/gris/3.png" style="max-width: 100%; height: auto;">
+<img src="../images/gallery/gris/4.png" style="max-width: 100%; height: auto;">
+<img src="../images/gallery/gris/6.png" style="max-width: 100%; height: auto;">
+<img src="../images/gallery/gris/7.png" style="max-width: 100%; height: auto;">
+<img src="../images/gallery/gris/9.png" style="max-width: 100%; height: auto;">
+<img src="../images/gallery/gris/11.png" style="max-width: 100%; height: auto;">
+<img src="../images/gallery/gris/12.png" style="max-width: 100%; height: auto;">
+<img src="../images/gallery/gris/14.png" style="max-width: 100%; height: auto;">
