@@ -30,8 +30,7 @@ const BlogList = () => {
               type="button"
               onClick={() => navigate(`/blog/${file}`)}
               style={{
-                padding: '10px 20px',
-                fontSize: '16px',
+                padding: '1px 20px',
                 cursor: 'pointer',
                 borderRadius: '5px',
                 border: '1px solid #ccc',

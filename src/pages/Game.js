@@ -5,6 +5,8 @@ const Games = () => {
   const games = [
     { id: 'pacman', name: 'Pac-Man', link: '/Personal-Website/games/pacman/index.html' },
     { id: 'chess', name: 'Chess', link: '/Personal-Website/games/chess/index.html' },
+    { id: '2048', name: '2048', link: '/Personal-Website/games/2048/index.html' },
+    { id: 'hextris', name: 'Hextris', link: '/Personal-Website/games/hextris/index.html' },
   ];
 
   const [selectedGame, setSelectedGame] = useState(null);
@@ -36,6 +38,8 @@ const Games = () => {
     <Main title="Games" description="Play mini-games here!">
       <div>
         <h1>Games</h1>
+        <h3>Here are few web-based games which you can try! </h3>
+        <p> Source Code : <a href="https://github.com/attogram/games?tab=readme-ov-file">Click Here</a></p>
         <div>
           {games.map((game) => (
             <button
@@ -44,7 +48,7 @@ const Games = () => {
               onClick={() => handleGameSelect(game.id)}
               style={{
                 margin: '10px',
-                padding: '10px 20px',
+                padding: '0px 20px',
                 cursor: 'pointer',
               }}
             >
