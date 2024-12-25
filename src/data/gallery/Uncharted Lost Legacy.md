@@ -39,7 +39,7 @@
     </style>
 </head>
 <body>
-    <h1>Here are a few Screenshots I took from the Game "Ghost of Tsushima"</h1>
+    <h1>Here are a few Screenshots I took from the Game "Uncharted Lost Legacy"</h1>
     <div class="gallery">
         <a href="../images/gallery/uncharted_lost/1.jpg" target="_blank">
             <img src="../images/gallery/uncharted_lost/1.jpg" alt="Screenshot 1">

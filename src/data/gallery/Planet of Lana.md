@@ -39,7 +39,7 @@
     </style>
 </head>
 <body>
-    <h1>Here are a few Screenshots I took from the Game "Ghost of Tsushima"</h1>
+    <h1>Here are a few Screenshots I took from the Game "Planet of Lana"</h1>
     <div class="gallery">
         <a href="../images/gallery/planet_of_lana/1.png" target="_blank">
             <img src="../images/gallery/planet_of_lana/1.png" alt="Screenshot 1">
