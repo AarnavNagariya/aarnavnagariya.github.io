@@ -38,7 +38,7 @@ const Games = () => {
     <Main title="Games" description="Play mini-games here!">
       <div>
         <h1>Games</h1>
-        <h3>Here are few web-based games which you can try! </h3>
+        <h3>Few games which you can try here itself ! </h3>
         <p> Source Code : <a href="https://github.com/attogram/games?tab=readme-ov-file">Click Here</a></p>
         <div>
           {games.map((game) => (
