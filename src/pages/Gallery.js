@@ -5,6 +5,23 @@ import Main from '../layouts/Main';
 // Import Markdown files dynamically from the `blogs` directory
 const importAll = (r) => r.keys().map((file) => file.replace('./', '').replace('.md', ''));
 
+const getButtonColor = (file) => {
+  if (file.startsWith('Planet of Lana')) {
+    return '#d3f9d8'; // Very light green
+  } if (file.startsWith('Cyberpunk')) {
+    return '#d3f9ff'; // Very light blue
+  } if (file.startsWith('Gris')) {
+    return '#f9d3ff'; // Very light purple
+  } if (file.startsWith('Extras')) {
+    return '#f9d3d3'; // Very light red
+  } if (file.startsWith('Ghost of Tsushima')) {
+    return '#f9f3d3'; // Very light yellow
+  } if (file.startsWith('Uncharted')) {
+    return '#f9f3d3'; // Very light yellow
+  }
+  return '#f7f7f7'; // Default color
+};
+
 const BlogList = () => {
   const [files, setFiles] = useState([]);
   const navigate = useNavigate();
@@ -34,7 +51,7 @@ const BlogList = () => {
                 cursor: 'pointer',
                 borderRadius: '5px',
                 border: '1px solid #ccc',
-                backgroundColor: '#f7f7f7',
+                backgroundColor: getButtonColor(file), // Set the background color based on filename
               }}
             >
               {file}

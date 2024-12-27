@@ -23,6 +23,8 @@ const Learn = () => {
       return '#d3f9ff'; // Very light blue
     } if (file.startsWith('[GRAPHS]')) {
       return '#f9d3ff'; // Very light purple
+    } if (file.startsWith('[STANDARD]')) {
+      return '#f9d3d3'; // Very light red
     }
     return '#f7f7f7'; // Default color
   };
