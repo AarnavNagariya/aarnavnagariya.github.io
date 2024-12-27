@@ -15,6 +15,18 @@ const Learn = () => {
     setFiles(fetchedFiles);
   }, []);
 
+  // Function to determine button color based on filename
+  const getButtonColor = (file) => {
+    if (file.startsWith('[OOPS]')) {
+      return '#d3f9d8'; // Very light green
+    } if (file.startsWith('[ALGORITHM]')) {
+      return '#d3f9ff'; // Very light blue
+    } if (file.startsWith('[GRAPHS]')) {
+      return '#f9d3ff'; // Very light purple
+    }
+    return '#f7f7f7'; // Default color
+  };
+
   return (
     <Main title="Learn" description="List of Learning posts">
       <article className="post">
@@ -22,7 +34,7 @@ const Learn = () => {
           <div className="title">
             <h2>Learn</h2>
             <p>Here are the resources for learning.</p>
-            <p>These are made from various sources for credits/references feel free to contact.</p>
+            <p>These are made from various sources for credits/references. Feel free to contact.</p>
           </div>
         </header>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
@@ -34,9 +46,9 @@ const Learn = () => {
               style={{
                 padding: '1px 20px',
                 cursor: 'pointer',
-                borderRadius: '5px',
+                borderRadius: '3px',
                 border: '1px solid #ccc',
-                backgroundColor: '#f7f7f7',
+                backgroundColor: getButtonColor(file), // Set the background color based on filename
               }}
             >
               {file}
