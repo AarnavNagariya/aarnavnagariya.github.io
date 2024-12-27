@@ -32,10 +32,6 @@ const routes = [
     label: 'Gallery',
     path: '/gallery',
   },
-  {
-    label: 'Games',
-    path: '/games',
-  },
 ];
 
 export default routes;

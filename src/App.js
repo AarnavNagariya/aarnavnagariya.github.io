@@ -19,7 +19,6 @@ const Blog = lazy(() => import('./pages/Blog'));
 const BlogPost = lazy(() => import('./pages/BlogPost'));
 const Gallery = lazy(() => import('./pages/Gallery'));
 const GalleryPost = lazy(() => import('./pages/GalleryPost'));
-const Game = lazy(() => import('./pages/Game'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -35,7 +34,6 @@ const App = () => (
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/blog/:filename" element={<BlogPost />} />
         <Route path="/gallery/:filename" element={<GalleryPost />} />
-        <Route path="/games" element={<Game />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>
