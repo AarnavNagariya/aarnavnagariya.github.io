@@ -5,7 +5,7 @@ const data = [
     subtitle: 'VR based alternative for Synoptophore',
     image: '/images/projects/vrphore_.png',
     date: '2024-12-04',
-    link: '/Personal-Website/blog/VR%20Phore',
+    link: '/blog/VR%20Phore',
     desc:
       'Innovated a simulation of the synoptophore device using the Unity engine'
       + 'to diagnose binocular vision problems such as strabismus and amblyopia'
@@ -16,7 +16,7 @@ const data = [
     subtitle: 'Research Project',
     image: '/images/projects/rayoptics.jpg',
     date: '2024-09-01',
-    link: '/Personal-Website/blog/Ray%20Optics%20Simulation',
+    link: '/blog/Ray%20Optics%20Simulation',
     desc:
       'Created an interactive ray optics simulation in Unity engine for children,'
       + ' featuring distance and degree annotations, VIBGYOR diffraction simulation,'

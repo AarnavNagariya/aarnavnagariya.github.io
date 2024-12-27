@@ -7,7 +7,7 @@ const data = [
   {
     label: 'Lines of Javascript powering this website',
     value: '2150',
-    link: 'https://aarnavnagariya.github.io/Personal-Website/',
+    link: 'https://aarnavnagariya.github.io/',
   },
 ];
 
