@@ -32,6 +32,10 @@ const routes = [
     label: 'Gallery',
     path: '/gallery',
   },
+  {
+    label: 'Learn',
+    path: '/learn',
+  },
 ];
 
 export default routes;

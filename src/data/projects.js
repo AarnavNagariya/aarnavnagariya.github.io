@@ -5,6 +5,7 @@ const data = [
     subtitle: 'VR based alternative for Synoptophore',
     image: '/images/projects/vrphore_.png',
     date: '2024-12-04',
+    link: '/Personal-Website/blog/VR%20Phore',
     desc:
       'Innovated a simulation of the synoptophore device using the Unity engine'
       + 'to diagnose binocular vision problems such as strabismus and amblyopia'
@@ -15,6 +16,7 @@ const data = [
     subtitle: 'Research Project',
     image: '/images/projects/rayoptics.jpg',
     date: '2024-09-01',
+    link: '/Personal-Website/blog/Ray%20Optics%20Simulation',
     desc:
       'Created an interactive ray optics simulation in Unity engine for children,'
       + ' featuring distance and degree annotations, VIBGYOR diffraction simulation,'
@@ -25,6 +27,7 @@ const data = [
     subtitle: 'Reddit Clone',
     image: '/images/projects/grediiit.png',
     date: '2023-05-01',
+    link: 'https://github.com/AarnavNagariya/G-Reddiiit',
     desc:
       'A social media website, similar to that of Reddit with all the necessary functionalities'
       + ' implemented in MERN stack along with dockerized code.',
@@ -34,6 +37,7 @@ const data = [
     subtitle: 'Custom 64-bit Y86 Processor',
     image: '/images/projects/y86.png',
     date: '2023-09-01',
+    link: 'https://github.com/AarnavNagariya/64-bit-Y86-Processor',
     desc:
       'Designed a 64-bit Y86 architecture processor in Verilog, and'
       + ' implemented a 5-stage pipeline for enhanced speed and efficiency.'
@@ -44,6 +48,7 @@ const data = [
     subtitle: 'Custom Shell',
     image: '/images/projects/shell.png',
     date: '2022-11-01',
+    link: 'https://github.com/AarnavNagariya/A_Shell',
     desc:
       'A functional Linux shell using C programming language. '
       + 'Developed and tested various commands with input and output redirection,'
@@ -67,8 +72,7 @@ const data = [
     image: '/images/projects/brain.jpeg',
     date: '2024-05-01',
     desc:
-      'Utilized an existing neural network model (by replicating the following '
-      + 'research paper) and made custom autoencoder embeddings model for decoding '
+      'Utilized an existing neural network model and made custom autoencoder embeddings model for decoding '
       + 'mental processes such as motor functions, speech, and emotions from fMRI images.'
       + ' Achieved 88% accuracy from the autoencoder model.',
   },
@@ -88,6 +92,7 @@ const data = [
     subtitle: 'Formatting Documents using Gemini',
     image: '/images/projects/rag_.png',
     date: '2024-11-01',
+    link: 'https://github.com/AarnavNagariya/RAG-Based-Document-Formatter',
     desc:
       'Developed a document formatting system using Retrieval-Augmented Generation (RAG)'
       + ' techniques to generate a formatted document from a given text input.'
@@ -99,6 +104,7 @@ const data = [
     subtitle: 'GMM based Photo Recoloring and Harmonization',
     image: '/images/projects/dip.png',
     date: '2024-12-01',
+    link: 'https://github.com/AarnavNagariya/Photo-Recoloring-Through-K-Means-Clustering',
     desc:
       'Developed a photo recoloring system using Gaussian Mixture Models (GMM)'
       + ' to cluster colors in an image to generate a color palette.'

@@ -17,6 +17,8 @@ const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
 const Blog = lazy(() => import('./pages/Blog'));
 const BlogPost = lazy(() => import('./pages/BlogPost'));
+const Learn = lazy(() => import('./pages/Learn'));
+const LearnPost = lazy(() => import('./pages/LearnPost'));
 const Gallery = lazy(() => import('./pages/Gallery'));
 const GalleryPost = lazy(() => import('./pages/GalleryPost'));
 
@@ -31,8 +33,10 @@ const App = () => (
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/blog/*" element={<Blog />} />
+        <Route path="/learn/*" element={<Learn />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/blog/:filename" element={<BlogPost />} />
+        <Route path="/learn/:filename" element={<LearnPost />} />
         <Route path="/gallery/:filename" element={<GalleryPost />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
