@@ -38,6 +38,7 @@ const BlogList = () => {
         <header>
           <div className="title">
             <h2>Gallery</h2>
+            <p>As an art enthusiast, I like capturing stunning visuals, especially within games.</p>
           </div>
         </header>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
