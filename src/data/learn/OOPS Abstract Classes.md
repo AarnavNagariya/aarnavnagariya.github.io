@@ -1,3 +1,21 @@
+# Table of Contents
+
+1. [Abstract Classes in C++](#abstract-classes-in-c)
+2. [Example of Pure Virtual Function](#example-of-pure-virtual-function)
+3. [Consequences of Pure Virtual Functions](#consequences-of-pure-virtual-functions)
+   - [Abstract Base Classes](#abstract-base-classes)
+   - [Cannot Instantiate Abstract Classes](#cannot-instantiate-abstract-classes)
+   - [Derived Classes Must Implement Pure Virtual Functions](#derived-classes-must-implement-pure-virtual-functions)
+4. [Example 1: Animal Class with Pure Virtual Function](#example-1-animal-class-with-pure-virtual-function)
+5. [Interface Classes](#interface-classes)
+   - [Example of an Interface Class](#example-of-an-interface-class)
+   - [Implementing Interface Classes](#implementing-interface-classes)
+6. [Example of Using Interface Classes](#example-of-using-interface-classes)
+7. [Example of Multiple Interfaces in C++](#example-of-multiple-interfaces-in-c)
+8. [Conclusion](#conclusion)
+
+---
+
 ### Abstract Classes in C++
 
 An **abstract class** is a class that contains at least one **pure virtual function**. A pure virtual function is declared by assigning the function definition `= 0` instead of providing a body for it. Abstract classes cannot be instantiated directly, and they are meant to be inherited by derived classes, which must provide implementations for the pure virtual functions.

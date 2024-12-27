@@ -1,3 +1,19 @@
+# Table of Contents
+
+- [Inheritance](#inheritance)
+  - [The Access Specifier Table for Inheritance](#access-specifier-table-for-inheritance)
+  - [How to Call the Constructor of Base Class from Derived Class](#how-to-call-the-constructor-of-base-class-from-derived-class)
+  - [Different Types of Inheritance](#different-types-of-inheritance)
+    - [Single Inheritance](#single-inheritance)
+    - [Multiple Inheritance](#multiple-inheritance)
+    - [Multi-level Inheritance](#multi-level-inheritance)
+  - [Order of Construction of Derived Classes](#order-of-construction-of-derived-classes)
+  - [Problem of Diamond Inheritance](#problem-of-diamond-inheritance)
+  - [Better Solution: Virtual Inheritance](#better-solution-virtual-inheritance)
+  - [Is Multiple Inheritance More Trouble Than It’s Worth?](#is-multiple-inheritance-more-trouble-than-its-worth)
+  - [Can We Assign a Base Pointer or Reference to a Derived Object?](#can-we-assign-a-base-pointer-or-reference-to-a-derived-object)
+---
+
 
 # Inheritance
 
@@ -249,7 +265,7 @@ Car has 4 Wheels
 
 [Look here](https://www.learncpp.com/cpp-tutorial/order-of-construction-of-derived-classes/)
 
-## Problem of Diamond Inheritance: a special case
+## Problem of Diamond Inheritance
 
 <div style="text-align:center">
 	<img src="../images/projects/diamond_inheritance.jpg" alt="Need of Containership in C" width="50%">
@@ -312,7 +328,7 @@ c : 30
 d : 40
 ```
 
-**Better solution:** **The `virtual` Inheritance**
+## Better solution: Virtual Inheritance
 
 Virtual base classes are used in virtual inheritance in a way of preventing multiple “instances” of a given class appearing in an inheritance hierarchy when using multiple inheritances.
 

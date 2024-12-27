@@ -1,3 +1,15 @@
+# Table of Contents
+
+- [Compile time polymorphism](#compile-time-polymorphism)
+  - [Method Overloading](#method-overloading)
+  - Operator Overloading
+- [Runtime Polymorphism](#runtime-polymorphism)
+  - [Method Overriding](#method-overriding)
+  - [Why would someone ever assign a base pointer to the address of a derived object?](#why-would-someone-ever-assign-a-base-pointer-to-the-address-of-a-derived-object-in-their-sane-mind-are-virtual-functions-useless-and-just-used-to-make-lives-difficult)
+- [Example with Virtual Functions](#example-with-virtual-functions)
+  - [Virtual Inheritance vs Polymorphism](#virtual-inheritance-vs-polymorphism)
+
+
 # Polymorphism
 
 **In C++ polymorphism is mainly divided into two types:**
@@ -9,7 +21,8 @@
 
 This type of polymorphism is resolved at compilation stage. It is also called static and early binding. Examples are- 
 
-- **Method Overloading**: When there are multiple methods with same name but different parameters then these functions are said to be **overloaded**. Methods can be overloaded by **change in number of arguments** or/and **change in type of arguments**.
+### Method Overloading
+ **Method Overloading**: When there are multiple methods with same name but different parameters then these functions are said to be **overloaded**. Methods can be overloaded by **change in number of arguments** or/and **change in type of arguments**.
 
 ```cpp
 class Geeks
@@ -113,6 +126,7 @@ This kind of polymorphism is resolved at runtime. Its also called Dynamic bindin
 
 The `virtual` keyword forces the linking of methods to happen during run-time instead of compile time.
 
+#### Method Overriding
 - **Method Overriding**
 
 ```cpp

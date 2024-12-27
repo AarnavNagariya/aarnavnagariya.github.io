@@ -1,3 +1,13 @@
+# Table of Contents
+
+- [Introduction to Classes](#class)
+  - [Member Methods](#member-methods)
+  - [Constructor](#constructor)
+  - [Access Specifier](#access-specifier)
+  - [Getter and Setter Methods](#getter-and-setter-methods)
+---
+
+
 # Class
 
 A class is a blueprint of a customized data type containing different primitive data types along with functionalities operating on them.
