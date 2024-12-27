@@ -36,7 +36,7 @@ const Learn = () => {
           <div className="title">
             <h2>Learn</h2>
             <p>Here are Your Learning Notes</p>
-            <p>These are made/compiled from various sources for credits/references. Feel free to <a href="/Personal-Website/contact">contact</a>.</p>
+            <p>These are made/compiled from various sources for credits/references, Feel free to <a href="/Personal-Website/contact">contact</a>.</p>
           </div>
         </header>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
