@@ -40,6 +40,7 @@
 </head>
 <body>
     <h1>This is the Cyberpunk 2077 Concept Art from Cyberpunk 2077:Phantom Liberty Goodies Collection</h1>
+    <h6>Some images are high quality (12k) so might take some while to load.</h6>
     <div class="gallery">
         <a href="../images/gallery/cyberpunk_concept/1.png" target="_blank">
             <img src="../images/gallery/cyberpunk_concept/1.png" alt="Screenshot 1">
@@ -100,6 +101,9 @@
         </a>
         <a href="../images/gallery/cyberpunk_concept/20.png" target="_blank">
             <img src="../images/gallery/cyberpunk_concept/20.png" alt="Screenshot 20">
+        </a>
+        <a href="../images/gallery/cyberpunk_concept/21.png" target="_blank">
+            <img src="../images/gallery/cyberpunk_concept/21.png" alt="Screenshot 21">
         </a>
         <a href="../images/gallery/cyberpunk_concept/22.png" target="_blank">
             <img src="../images/gallery/cyberpunk_concept/22.png" alt="Screenshot 22">
