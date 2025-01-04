@@ -40,7 +40,6 @@
 </head>
 <body>
     <h1>This is the Cyberpunk 2077 Screenshts from Cyberpunk 2077:Phantom Liberty Goodies Collection</h1>
-    <h6>Some images are high quality (12k) so might take some while to load.</h6>
     <div class="gallery">
         <a href="../images/gallery/cyberpunk_ss/1.png" target="_blank">
             <img src="../images/gallery/cyberpunk_ss/1.png" alt="Screenshot 1">
@@ -71,15 +70,6 @@
         </a>
         <a href="../images/gallery/cyberpunk_ss/10.png" target="_blank">
             <img src="../images/gallery/cyberpunk_ss/10.png" alt="Screenshot 10">
-        </a>
-        <a href="../images/gallery/cyberpunk_ss/11.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_ss/11.png" alt="Screenshot 11">
-        </a>
-        <a href="../images/gallery/cyberpunk_ss/12.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_ss/12.png" alt="Screenshot 12">
-        </a>
-        <a href="../images/gallery/cyberpunk_ss/13.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_ss/13.png" alt="Screenshot 13">
         </a>
         <a href="../images/gallery/cyberpunk_ss/14.png" target="_blank">
             <img src="../images/gallery/cyberpunk_ss/14.png" alt="Screenshot 14">
