@@ -41,43 +41,38 @@
     <h2>Death Parade - ED</h2>
     <div class="gallery">
         <a href="../images/gallery/extras/Deathparade.png" target="_blank">
-            <img src="../images/gallery/extras/Deathparade.png" alt="Death Parade - ED">
+            <img src="../images/gallery/extras/Deathparade_web.png" alt="Death Parade - ED">
         </a>
     </div>
-
     <h2>Bioshock Remastered - Beginning</h2>
     <div class="gallery">
         <a href="../images/gallery/extras/BioShock_Remastered.png" target="_blank">
-            <img src="../images/gallery/extras/BioShock_Remastered.png" alt="Bioshock Remastered - Beginning">
+            <img src="../images/gallery/extras/BioShock_Remastered_web.png" alt="Bioshock Remastered - Beginning">
         </a>
     </div>
-
     <h2>Mafia: Definitive Edition - Magazine</h2>
     <div class="gallery">
         <a href="../images/gallery/extras/Mafia_Definitive_Magazine.png" target="_blank">
-            <img src="../images/gallery/extras/Mafia_Definitive_Magazine.png" alt="Mafia: Definitive Edition - Magazine">
+            <img src="../images/gallery/extras/Mafia_Definitive_Magazine_web.png" alt="Mafia: Definitive Edition - Magazine">
         </a>
     </div>
-
     <h2>Elden Ring - Margit, The Fell Omen</h2>
     <div class="gallery">
         <a href="../images/gallery/extras/Elden_Ring_Margit.png" target="_blank">
-            <img src="../images/gallery/extras/Elden_Ring_Margit.png" alt="Elden Ring - Margit, The Fell Omen">
+            <img src="../images/gallery/extras/Elden_Ring_Margit_web.png" alt="Elden Ring - Margit, The Fell Omen">
         </a>
     </div>
-
     <h2>Hogwarts Legacy - Third Trial</h2>
     <div class="gallery">
         <a href="../images/gallery/extras/Hogwarts_Legacy_Girl.png" target="_blank">
-            <img src="../images/gallery/extras/Hogwarts_Legacy_Girl.png" alt="Hogwarts Legacy - Third Trial">
+            <img src="../images/gallery/extras/Hogwarts_Legacy_Girl_web.png" alt="Hogwarts Legacy - Third Trial">
         </a>
     </div>
-
     <h2>Last of Us 2 - Ellie and Dina</h2>
     <div class="gallery">
         <a href="../images/gallery/extras/lastofus.jpeg" target="_blank">
-            <img src="../images/gallery/extras/lastofus.jpeg" alt="Last of Us 2 - Ellie and Dina">
+            <img src="../images/gallery/extras/lastofus._webjpeg" alt="Last of Us 2 - Ellie and Dina">
         </a>
     </div>
-</body>
+    </body>
 </html>

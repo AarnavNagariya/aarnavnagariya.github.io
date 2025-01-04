@@ -42,43 +42,40 @@
     <h1>Here are a few Screenshots I took from the Game "Gris"</h1>
     <div class="gallery">
         <a href="../images/gallery/gris/1.png" target="_blank">
-            <img src="../images/gallery/gris/1.png" alt="Screenshot 1">
+            <img src="../images/gallery/gris/1_web.png" alt="Screenshot 1">
         </a>
         <a href="../images/gallery/gris/3.png" target="_blank">
-            <img src="../images/gallery/gris/3.png" alt="Screenshot 3">
+            <img src="../images/gallery/gris/3_web.png" alt="Screenshot 3">
         </a>
         <a href="../images/gallery/gris/4.png" target="_blank">
-            <img src="../images/gallery/gris/4.png" alt="Screenshot 4">
+            <img src="../images/gallery/gris/4_web.png" alt="Screenshot 4">
         </a>
         <a href="../images/gallery/gris/5.png" target="_blank">
-            <img src="../images/gallery/gris/5.png" alt="Screenshot 5">
+            <img src="../images/gallery/gris/5_web.png" alt="Screenshot 5">
         </a>
         <a href="../images/gallery/gris/6.png" target="_blank">
-            <img src="../images/gallery/gris/6.png" alt="Screenshot 6">
+            <img src="../images/gallery/gris/6_web.png" alt="Screenshot 6">
         </a>
         <a href="../images/gallery/gris/7.png" target="_blank">
-            <img src="../images/gallery/gris/7.png" alt="Screenshot 7">
+            <img src="../images/gallery/gris/7_web.png" alt="Screenshot 7">
         </a>
         <a href="../images/gallery/gris/8.png" target="_blank">
-            <img src="../images/gallery/gris/8.png" alt="Screenshot 8">
+            <img src="../images/gallery/gris/8_web.png" alt="Screenshot 8">
         </a>
         <a href="../images/gallery/gris/9.png" target="_blank">
-            <img src="../images/gallery/gris/9.png" alt="Screenshot 9">
-        </a>
-        <a href="../images/gallery/gris/10.png" target="_blank">
-            <img src="../images/gallery/gris/10.png" alt="Screenshot 10">
+            <img src="../images/gallery/gris/9_web.png" alt="Screenshot 9">
         </a>
         <a href="../images/gallery/gris/11.png" target="_blank">
-            <img src="../images/gallery/gris/11.png" alt="Screenshot 11">
+            <img src="../images/gallery/gris/11_web.png" alt="Screenshot 11">
         </a>
         <a href="../images/gallery/gris/12.png" target="_blank">
-            <img src="../images/gallery/gris/12.png" alt="Screenshot 12">
+            <img src="../images/gallery/gris/12_web.png" alt="Screenshot 12">
         </a>
         <a href="../images/gallery/gris/14.png" target="_blank">
-            <img src="../images/gallery/gris/14.png" alt="Screenshot 14">
+            <img src="../images/gallery/gris/14_web.png" alt="Screenshot 14">
         </a>
         <a href="../images/gallery/gris/15.png" target="_blank">
-            <img src="../images/gallery/gris/15.png" alt="Screenshot 15">
+            <img src="../images/gallery/gris/15_web.png" alt="Screenshot 15">
         </a>
     </div>
 </body>

@@ -42,52 +42,52 @@
     <h1>Here are a few Screenshots I took from the Game "Planet of Lana"</h1>
     <div class="gallery">
         <a href="../images/gallery/planet_of_lana/1.png" target="_blank">
-            <img src="../images/gallery/planet_of_lana/1.png" alt="Screenshot 1">
+            <img src="../images/gallery/planet_of_lana/1_web.png" alt="Screenshot 1">
         </a>
         <a href="../images/gallery/planet_of_lana/2.png" target="_blank">
-            <img src="../images/gallery/planet_of_lana/2.png" alt="Screenshot 2">
+            <img src="../images/gallery/planet_of_lana/2_web.png" alt="Screenshot 2">
         </a>
         <a href="../images/gallery/planet_of_lana/3.png" target="_blank">
-            <img src="../images/gallery/planet_of_lana/3.png" alt="Screenshot 3">
+            <img src="../images/gallery/planet_of_lana/3_web.png" alt="Screenshot 3">
         </a>
         <a href="../images/gallery/planet_of_lana/4.png" target="_blank">
-            <img src="../images/gallery/planet_of_lana/4.png" alt="Screenshot 4">
+            <img src="../images/gallery/planet_of_lana/4_web.png" alt="Screenshot 4">
         </a>
         <a href="../images/gallery/planet_of_lana/5.png" target="_blank">
-            <img src="../images/gallery/planet_of_lana/5.png" alt="Screenshot 5">
+            <img src="../images/gallery/planet_of_lana/5_web.png" alt="Screenshot 5">
         </a>
         <a href="../images/gallery/planet_of_lana/6.png" target="_blank">
-            <img src="../images/gallery/planet_of_lana/6.png" alt="Screenshot 6">
+            <img src="../images/gallery/planet_of_lana/6_web.png" alt="Screenshot 6">
         </a>
         <a href="../images/gallery/planet_of_lana/7.png" target="_blank">
-            <img src="../images/gallery/planet_of_lana/7.png" alt="Screenshot 7">
+            <img src="../images/gallery/planet_of_lana/7_web.png" alt="Screenshot 7">
         </a>
         <a href="../images/gallery/planet_of_lana/8.png" target="_blank">
-            <img src="../images/gallery/planet_of_lana/8.png" alt="Screenshot 8">
+            <img src="../images/gallery/planet_of_lana/8_web.png" alt="Screenshot 8">
         </a>
         <a href="../images/gallery/planet_of_lana/9.png" target="_blank">
-            <img src="../images/gallery/planet_of_lana/9.png" alt="Screenshot 9">
+            <img src="../images/gallery/planet_of_lana/9_web.png" alt="Screenshot 9">
         </a>
         <a href="../images/gallery/planet_of_lana/10.png" target="_blank">
-            <img src="../images/gallery/planet_of_lana/10.png" alt="Screenshot 10">
+            <img src="../images/gallery/planet_of_lana/10_web.png" alt="Screenshot 10">
         </a>
         <a href="../images/gallery/planet_of_lana/11.png" target="_blank">
-            <img src="../images/gallery/planet_of_lana/11.png" alt="Screenshot 11">
+            <img src="../images/gallery/planet_of_lana/11_web.png" alt="Screenshot 11">
         </a>
         <a href="../images/gallery/planet_of_lana/12.png" target="_blank">
-            <img src="../images/gallery/planet_of_lana/12.png" alt="Screenshot 12">
+            <img src="../images/gallery/planet_of_lana/12_web.png" alt="Screenshot 12">
         </a>
         <a href="../images/gallery/planet_of_lana/13.png" target="_blank">
-            <img src="../images/gallery/planet_of_lana/13.png" alt="Screenshot 13">
+            <img src="../images/gallery/planet_of_lana/13_web.png" alt="Screenshot 13">
         </a>
         <a href="../images/gallery/planet_of_lana/14.png" target="_blank">
-            <img src="../images/gallery/planet_of_lana/14.png" alt="Screenshot 14">
+            <img src="../images/gallery/planet_of_lana/14_web.png" alt="Screenshot 14">
         </a>
         <a href="../images/gallery/planet_of_lana/15.png" target="_blank">
-            <img src="../images/gallery/planet_of_lana/15.png" alt="Screenshot 15">
+            <img src="../images/gallery/planet_of_lana/15_web.png" alt="Screenshot 15">
         </a>
         <a href="../images/gallery/planet_of_lana/16.png" target="_blank">
-            <img src="../images/gallery/planet_of_lana/16.png" alt="Screenshot 16">
+            <img src="../images/gallery/planet_of_lana/16_web.png" alt="Screenshot 16">
         </a>
     </div>
 </body>

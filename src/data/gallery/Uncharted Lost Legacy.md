@@ -42,49 +42,49 @@
     <h1>Here are a few Screenshots I took from the Game "Uncharted Lost Legacy"</h1>
     <div class="gallery">
         <a href="../images/gallery/uncharted_lost/1.jpg" target="_blank">
-            <img src="../images/gallery/uncharted_lost/1.jpg" alt="Screenshot 1">
+            <img src="../images/gallery/uncharted_lost/1_web.jpg" alt="Screenshot 1">
         </a>
         <a href="../images/gallery/uncharted_lost/2.jpg" target="_blank">
-            <img src="../images/gallery/uncharted_lost/2.jpg" alt="Screenshot 2">
+            <img src="../images/gallery/uncharted_lost/2_web.jpg" alt="Screenshot 2">
         </a>
         <a href="../images/gallery/uncharted_lost/3.jpg" target="_blank">
-            <img src="../images/gallery/uncharted_lost/3.jpg" alt="Screenshot 3">
+            <img src="../images/gallery/uncharted_lost/3_web.jpg" alt="Screenshot 3">
         </a>
         <a href="../images/gallery/uncharted_lost/4.jpg" target="_blank">
-            <img src="../images/gallery/uncharted_lost/4.jpg" alt="Screenshot 4">
+            <img src="../images/gallery/uncharted_lost/4_web.jpg" alt="Screenshot 4">
         </a>
         <a href="../images/gallery/uncharted_lost/5.jpg" target="_blank">
-            <img src="../images/gallery/uncharted_lost/5.jpg" alt="Screenshot 5">
+            <img src="../images/gallery/uncharted_lost/5_web.jpg" alt="Screenshot 5">
         </a>
         <a href="../images/gallery/uncharted_lost/6.jpg" target="_blank">
-            <img src="../images/gallery/uncharted_lost/6.jpg" alt="Screenshot 6">
+            <img src="../images/gallery/uncharted_lost/6_web.jpg" alt="Screenshot 6">
         </a>
         <a href="../images/gallery/uncharted_lost/7.jpg" target="_blank">
-            <img src="../images/gallery/uncharted_lost/7.jpg" alt="Screenshot 7">
+            <img src="../images/gallery/uncharted_lost/7_web.jpg" alt="Screenshot 7">
         </a>
         <a href="../images/gallery/uncharted_lost/8.jpg" target="_blank">
-            <img src="../images/gallery/uncharted_lost/8.jpg" alt="Screenshot 8">
+            <img src="../images/gallery/uncharted_lost/8_web.jpg" alt="Screenshot 8">
         </a>
         <a href="../images/gallery/uncharted_lost/9.jpg" target="_blank">
-            <img src="../images/gallery/uncharted_lost/9.jpg" alt="Screenshot 9">
+            <img src="../images/gallery/uncharted_lost/9_web.jpg" alt="Screenshot 9">
         </a>
         <a href="../images/gallery/uncharted_lost/10.jpg" target="_blank">
-            <img src="../images/gallery/uncharted_lost/10.jpg" alt="Screenshot 10">
+            <img src="../images/gallery/uncharted_lost/10_web.jpg" alt="Screenshot 10">
         </a>
         <a href="../images/gallery/uncharted_lost/11.jpg" target="_blank">
-            <img src="../images/gallery/uncharted_lost/11.jpg" alt="Screenshot 11">
+            <img src="../images/gallery/uncharted_lost/11_web.jpg" alt="Screenshot 11">
         </a>
         <a href="../images/gallery/uncharted_lost/12.jpg" target="_blank">
-            <img src="../images/gallery/uncharted_lost/12.jpg" alt="Screenshot 12">
+            <img src="../images/gallery/uncharted_lost/12_web.jpg" alt="Screenshot 12">
         </a>
         <a href="../images/gallery/uncharted_lost/13.jpg" target="_blank">
-            <img src="../images/gallery/uncharted_lost/13.jpg" alt="Screenshot 13">
+            <img src="../images/gallery/uncharted_lost/13_web.jpg" alt="Screenshot 13">
         </a>
         <a href="../images/gallery/uncharted_lost/14.jpg" target="_blank">
-            <img src="../images/gallery/uncharted_lost/14.jpg" alt="Screenshot 14">
+            <img src="../images/gallery/uncharted_lost/14_web.jpg" alt="Screenshot 14">
         </a>
         <a href="../images/gallery/uncharted_lost/15.jpg" target="_blank">
-            <img src="../images/gallery/uncharted_lost/15.jpg" alt="Screenshot 15">
+            <img src="../images/gallery/uncharted_lost/15_web.jpg" alt="Screenshot 15">
         </a>
     </div>
 </body>

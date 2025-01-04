@@ -42,91 +42,88 @@
     <h1>This is the Cyberpunk 2077 Concept Art from Cyberpunk 2077:Phantom Liberty Goodies Collection</h1>
     <div class="gallery">
         <a href="../images/gallery/cyberpunk_concept/1.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/1.png" alt="Screenshot 1">
+            <img src="../images/gallery/cyberpunk_concept/1_web.png" alt="Screenshot 1">
         </a>
         <a href="../images/gallery/cyberpunk_concept/2.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/2.png" alt="Screenshot 2">
+            <img src="../images/gallery/cyberpunk_concept/2_web.png" alt="Screenshot 2">
         </a>
         <a href="../images/gallery/cyberpunk_concept/3.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/3.png" alt="Screenshot 3">
+            <img src="../images/gallery/cyberpunk_concept/3_web.png" alt="Screenshot 3">
         </a>
         <a href="../images/gallery/cyberpunk_concept/4.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/4.png" alt="Screenshot 4">
+            <img src="../images/gallery/cyberpunk_concept/4_web.png" alt="Screenshot 4">
         </a>
         <a href="../images/gallery/cyberpunk_concept/5.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/5.png" alt="Screenshot 5">
+            <img src="../images/gallery/cyberpunk_concept/5_web.png" alt="Screenshot 5">
         </a>
         <a href="../images/gallery/cyberpunk_concept/6.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/6.png" alt="Screenshot 6">
+            <img src="../images/gallery/cyberpunk_concept/6_web.png" alt="Screenshot 6">
         </a>
         <a href="../images/gallery/cyberpunk_concept/7.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/7.png" alt="Screenshot 7">
+            <img src="../images/gallery/cyberpunk_concept/7_web.png" alt="Screenshot 7">
         </a>
         <a href="../images/gallery/cyberpunk_concept/8.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/8.png" alt="Screenshot 8">
+            <img src="../images/gallery/cyberpunk_concept/8_web.png" alt="Screenshot 8">
         </a>
         <a href="../images/gallery/cyberpunk_concept/9.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/9.png" alt="Screenshot 9">
-        </a>
-        <a href="../images/gallery/cyberpunk_concept/10.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/10.png" alt="Screenshot 10">
+            <img src="../images/gallery/cyberpunk_concept/9_web.png" alt="Screenshot 9">
         </a>
         <a href="../images/gallery/cyberpunk_concept/11.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/11.png" alt="Screenshot 11">
+            <img src="../images/gallery/cyberpunk_concept/11_web.png" alt="Screenshot 11">
         </a>
         <a href="../images/gallery/cyberpunk_concept/12.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/12.png" alt="Screenshot 12">
+            <img src="../images/gallery/cyberpunk_concept/12_web.png" alt="Screenshot 12">
         </a>
         <a href="../images/gallery/cyberpunk_concept/13.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/13.png" alt="Screenshot 13">
+            <img src="../images/gallery/cyberpunk_concept/13_web.png" alt="Screenshot 13">
         </a>
         <a href="../images/gallery/cyberpunk_concept/14.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/14.png" alt="Screenshot 14">
+            <img src="../images/gallery/cyberpunk_concept/14_web.png" alt="Screenshot 14">
         </a>
         <a href="../images/gallery/cyberpunk_concept/15.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/15.png" alt="Screenshot 15">
+            <img src="../images/gallery/cyberpunk_concept/15_web.png" alt="Screenshot 15">
         </a>
         <a href="../images/gallery/cyberpunk_concept/16.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/16.png" alt="Screenshot 16">
+            <img src="../images/gallery/cyberpunk_concept/16_web.png" alt="Screenshot 16">
         </a>
         <a href="../images/gallery/cyberpunk_concept/17.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/17.png" alt="Screenshot 17">
+            <img src="../images/gallery/cyberpunk_concept/17_web.png" alt="Screenshot 17">
         </a>
         <a href="../images/gallery/cyberpunk_concept/18.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/18.png" alt="Screenshot 18">
+            <img src="../images/gallery/cyberpunk_concept/18_web.png" alt="Screenshot 18">
         </a>
         <a href="../images/gallery/cyberpunk_concept/19.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/19.png" alt="Screenshot 19">
+            <img src="../images/gallery/cyberpunk_concept/19_web.png" alt="Screenshot 19">
         </a>
         <a href="../images/gallery/cyberpunk_concept/20.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/20.png" alt="Screenshot 20">
+            <img src="../images/gallery/cyberpunk_concept/20_web.png" alt="Screenshot 20">
         </a>
         <a href="../images/gallery/cyberpunk_concept/22.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/22.png" alt="Screenshot 22">
+            <img src="../images/gallery/cyberpunk_concept/22_web.png" alt="Screenshot 22">
         </a>
         <a href="../images/gallery/cyberpunk_concept/23.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/23.png" alt="Screenshot 23">
+            <img src="../images/gallery/cyberpunk_concept/23_web.png" alt="Screenshot 23">
         </a>
         <a href="../images/gallery/cyberpunk_concept/24.png" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/24.png" alt="Screenshot 24">
+            <img src="../images/gallery/cyberpunk_concept/24_web.png" alt="Screenshot 24">
         </a>
         <a href="../images/gallery/cyberpunk_concept/1.jpg" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/1.jpg" alt="Screenshot 25">
+            <img src="../images/gallery/cyberpunk_concept/1_web.jpg" alt="Screenshot 25">
         </a>
         <a href="../images/gallery/cyberpunk_concept/2.jpg" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/2.jpg" alt="Screenshot 27">
+            <img src="../images/gallery/cyberpunk_concept/2_web.jpg" alt="Screenshot 27">
         </a>
         <a href="../images/gallery/cyberpunk_concept/3.jpg" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/3.jpg" alt="Screenshot 28">
+            <img src="../images/gallery/cyberpunk_concept/3_web.jpg" alt="Screenshot 28">
         </a>
         <a href="../images/gallery/cyberpunk_concept/4.jpg" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/4.jpg" alt="Screenshot 29">
+            <img src="../images/gallery/cyberpunk_concept/4_web.jpg" alt="Screenshot 29">
         </a>
         <a href="../images/gallery/cyberpunk_concept/5.jpg" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/5.jpg" alt="Screenshot 30">
+            <img src="../images/gallery/cyberpunk_concept/5_web.jpg" alt="Screenshot 30">
         </a>
         <a href="../images/gallery/cyberpunk_concept/6.jpg" target="_blank">
-            <img src="../images/gallery/cyberpunk_concept/6.jpg" alt="Screenshot 31">
+            <img src="../images/gallery/cyberpunk_concept/6_web.jpg" alt="Screenshot 31">
         </a>
     </div>
 </body>

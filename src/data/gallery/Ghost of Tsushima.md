@@ -42,46 +42,46 @@
     <h1>Here are a few Screenshots I took from the Game "Ghost of Tsushima"</h1>
     <div class="gallery">
         <a href="../images/gallery/ghost_of_tsushima/1.png" target="_blank">
-            <img src="../images/gallery/ghost_of_tsushima/1.png" alt="Screenshot 1">
+            <img src="../images/gallery/ghost_of_tsushima/1_web.png" alt="Screenshot 1">
         </a>
         <a href="../images/gallery/ghost_of_tsushima/2.png" target="_blank">
-            <img src="../images/gallery/ghost_of_tsushima/2.png" alt="Screenshot 2">
+            <img src="../images/gallery/ghost_of_tsushima/2_web.png" alt="Screenshot 2">
         </a>
         <a href="../images/gallery/ghost_of_tsushima/3.png" target="_blank">
-            <img src="../images/gallery/ghost_of_tsushima/3.png" alt="Screenshot 3">
+            <img src="../images/gallery/ghost_of_tsushima/3_web.png" alt="Screenshot 3">
         </a>
         <a href="../images/gallery/ghost_of_tsushima/4.png" target="_blank">
-            <img src="../images/gallery/ghost_of_tsushima/4.png" alt="Screenshot 4">
+            <img src="../images/gallery/ghost_of_tsushima/4_web.png" alt="Screenshot 4">
         </a>
         <a href="../images/gallery/ghost_of_tsushima/5.png" target="_blank">
-            <img src="../images/gallery/ghost_of_tsushima/5.png" alt="Screenshot 5">
+            <img src="../images/gallery/ghost_of_tsushima/5_web.png" alt="Screenshot 5">
         </a>
         <a href="../images/gallery/ghost_of_tsushima/6.png" target="_blank">
-            <img src="../images/gallery/ghost_of_tsushima/6.png" alt="Screenshot 6">
+            <img src="../images/gallery/ghost_of_tsushima/6_web.png" alt="Screenshot 6">
         </a>
         <a href="../images/gallery/ghost_of_tsushima/7.png" target="_blank">
-            <img src="../images/gallery/ghost_of_tsushima/7.png" alt="Screenshot 7">
+            <img src="../images/gallery/ghost_of_tsushima/7_web.png" alt="Screenshot 7">
         </a>
         <a href="../images/gallery/ghost_of_tsushima/8.png" target="_blank">
-            <img src="../images/gallery/ghost_of_tsushima/8.png" alt="Screenshot 8">
+            <img src="../images/gallery/ghost_of_tsushima/8_web.png" alt="Screenshot 8">
         </a>
         <a href="../images/gallery/ghost_of_tsushima/9.png" target="_blank">
-            <img src="../images/gallery/ghost_of_tsushima/9.png" alt="Screenshot 9">
+            <img src="../images/gallery/ghost_of_tsushima/9_web.png" alt="Screenshot 9">
         </a>
         <a href="../images/gallery/ghost_of_tsushima/10.png" target="_blank">
-            <img src="../images/gallery/ghost_of_tsushima/10.png" alt="Screenshot 10">
+            <img src="../images/gallery/ghost_of_tsushima/10_web.png" alt="Screenshot 10">
         </a>
         <a href="../images/gallery/ghost_of_tsushima/11.png" target="_blank">
-            <img src="../images/gallery/ghost_of_tsushima/11.png" alt="Screenshot 11">
+            <img src="../images/gallery/ghost_of_tsushima/11_web.png" alt="Screenshot 11">
         </a>
         <a href="../images/gallery/ghost_of_tsushima/12.png" target="_blank">
-            <img src="../images/gallery/ghost_of_tsushima/12.png" alt="Screenshot 12">
+            <img src="../images/gallery/ghost_of_tsushima/12_web.png" alt="Screenshot 12">
         </a>
         <a href="../images/gallery/ghost_of_tsushima/13.png" target="_blank">
-            <img src="../images/gallery/ghost_of_tsushima/13.png" alt="Screenshot 13">
+            <img src="../images/gallery/ghost_of_tsushima/13_web.png" alt="Screenshot 13">
         </a>
         <a href="../images/gallery/ghost_of_tsushima/14.png" target="_blank">
-            <img src="../images/gallery/ghost_of_tsushima/14.png" alt="Screenshot 14">
+            <img src="../images/gallery/ghost_of_tsushima/14_web.png" alt="Screenshot 14">
         </a>
     </div>
 </body>
