@@ -30,5 +30,5 @@ def process_images_in_directory(directory_path):
         
 
 # Example usage
-directory_path = 'D:\Personal Website\personal-site\public\images\gallery\\uncharted_lost'  # Replace with your directory path
+directory_path = 'D:\Personal Website\personal-site\public\images\gallery\\neva'  # Replace with your directory path
 process_images_in_directory(directory_path)

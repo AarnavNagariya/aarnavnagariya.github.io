@@ -18,6 +18,12 @@ const getButtonColor = (file) => {
     return '#f9f3d3'; // Very light yellow
   } if (file.startsWith('Uncharted')) {
     return '#f9f3d3'; // Very light yellow
+  } if (file.startsWith('Hogwarts')) {
+    return '#f9f3d3'; // Very light yellow
+  } if (file.startsWith('Tekken 8')) {
+    return '#f9d3d3'; // Very light red
+  } if (file.startsWith('Neva')) {
+    return '#f9d3ff'; // Very light purple
   }
   return '#f7f7f7'; // Default color
 };

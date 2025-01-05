@@ -19,3 +19,4 @@
 | I Want to Talk             | 6             | 7                      | 🍿                   |
 | Kabir Singh                | 5             | 7                      | 💻                   |
 | Lucky Bhaskar              | 7             | 8                      | 💻                   |
+| The Wild Robot             | 8             | 9                      | 💻                   |
