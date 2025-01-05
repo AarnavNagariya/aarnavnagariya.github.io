@@ -7,12 +7,39 @@ const importAll = (r) => r.keys().map((file) => file.replace('./', '').replace('
 
 const Learn = () => {
   const [files, setFiles] = useState([]);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [filteredFiles, setFilteredFiles] = useState([]);
+  const [fileContents, setFileContents] = useState({});
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Dynamically load filenames from the `blogs` directory
-    const fetchedFiles = importAll(require.context('../data/learn', false, /\.md$/));
-    setFiles(fetchedFiles);
+    const fetchFiles = async () => {
+      const fetchedFiles = importAll(require.context('../data/learn', false, /\.md$/));
+      setFiles(fetchedFiles);
+
+      try {
+        // Fetch all file contents in parallel
+        const contentPromises = fetchedFiles.map(async (file) => {
+          const res = await import(`../data/learn/${file}.md`);
+          const response = await fetch(res.default);
+          const text = await response.text();
+          return { file, text };
+        });
+
+        const contents = await Promise.all(contentPromises);
+        const contentMap = contents.reduce((acc, { file, text }) => {
+          acc[file] = text;
+          return acc;
+        }, {});
+
+        setFileContents(contentMap);
+        setFilteredFiles(fetchedFiles); // Initially show all files
+      } catch (err) {
+        console.error('Failed to load content for files:', err);
+      }
+    };
+
+    fetchFiles();
   }, []);
 
   // Function to determine button color based on filename
@@ -29,6 +56,20 @@ const Learn = () => {
     return '#f7f7f7'; // Default color
   };
 
+  // Update filtered files based on search query
+  useEffect(() => {
+    if (searchQuery.trim() === '') {
+      setFilteredFiles(files); // Show all files if search is empty
+    } else {
+      const matchedFiles = files.filter((file) => {
+        const content = fileContents[file]?.toLowerCase();
+        const query = searchQuery.toLowerCase();
+        return content?.includes(query);
+      });
+      setFilteredFiles(matchedFiles);
+    }
+  }, [searchQuery, files, fileContents]);
+
   return (
     <Main title="Learn" description="List of Learning posts">
       <article className="post">
@@ -36,11 +77,29 @@ const Learn = () => {
           <div className="title">
             <h2>Learn</h2>
             <p>Here are Your Learning Notes</p>
-            <p>These are made/compiled from various sources for credits/references, Feel free to <a href="/Personal-Website/contact">contact</a>.</p>
+            <p>
+              These are made/compiled from various sources for credits/references, Feel free to{' '}
+              <a href="/Personal-Website/contact">contact</a>.
+            </p>
           </div>
         </header>
+        <div style={{ marginBottom: '20px' }}>
+          <input
+            type="text"
+            placeholder="Search for a topic..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            style={{
+              width: '100%',
+              padding: '10px',
+              fontSize: '16px',
+              borderRadius: '5px',
+              border: '1px solid #ccc',
+            }}
+          />
+        </div>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
-          {files.map((file) => (
+          {filteredFiles.map((file) => (
             <button
               key={file}
               type="button"
