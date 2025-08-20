@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpersonal_site=self.webpackChunkpersonal_site||[]).push([[826],{5826:(e,s,p)=>{e.exports=p.p+"static/media/VR Phore.8bbe61df4474efe33bcc.md"}}]);

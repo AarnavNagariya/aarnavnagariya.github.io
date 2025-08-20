@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpersonal_site=self.webpackChunkpersonal_site||[]).push([[605],{605:(e,s,a)=>{e.exports=a.p+"static/media/Ray Optics Simulation.50886d2af1ffeb0f90f6.md"}}]);

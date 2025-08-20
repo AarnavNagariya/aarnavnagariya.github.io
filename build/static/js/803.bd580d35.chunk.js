@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpersonal_site=self.webpackChunkpersonal_site||[]).push([[803],{4803:(e,s,a)=>{e.exports=a.p+"static/media/Neva.6c8c0baec81c8118071d.md"}}]);
