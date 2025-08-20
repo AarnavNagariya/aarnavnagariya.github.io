@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_site=self.webpackChunkpersonal_site||[]).push([[887],{4887:(e,a,s)=>{e.exports=s.p+"static/media/Hyderabad Resturants and Cafe.cd11d1106dee6c8aa853.md"}}]);

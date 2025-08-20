@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_site=self.webpackChunkpersonal_site||[]).push([[534],{8534:(e,s,p)=>{e.exports=p.p+"static/media/Gris.38573e23329cb63fbd0f.md"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_site=self.webpackChunkpersonal_site||[]).push([[270],{2270:(e,s,a)=>{e.exports=a.p+"static/media/[OOPS] Inheritance.1321b2a1c7970b061f2f.md"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_site=self.webpackChunkpersonal_site||[]).push([[196],{196:(e,s,a)=>{e.exports=a.p+"static/media/Planet of Lana.b720de01c8f2e09ec6af.md"}}]);

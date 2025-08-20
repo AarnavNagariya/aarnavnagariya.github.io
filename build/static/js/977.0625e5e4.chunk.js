@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_site=self.webpackChunkpersonal_site||[]).push([[977],{7977:(e,s,p)=>{e.exports=p.p+"static/media/Tekken 8.41980631722c20841383.md"}}]);
