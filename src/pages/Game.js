@@ -3,10 +3,10 @@ import Main from '../layouts/Main';
 
 const Games = () => {
   const games = [
-    { id: 'pacman', name: 'Pac-Man', link: '/Personal-Website/games/pacman/index.html' },
-    { id: 'chess', name: 'Chess', link: '/Personal-Website/games/chess/index.html' },
-    { id: '2048', name: '2048', link: '/Personal-Website/games/2048/index.html' },
-    { id: 'hextris', name: 'Hextris', link: '/Personal-Website/games/hextris/index.html' },
+    { id: 'pacman', name: 'Pac-Man', link: '/games/pacman/index.html' },
+    { id: 'chess', name: 'Chess', link: '/games/chess/index.html' },
+    { id: '2048', name: '2048', link: '/games/2048/index.html' },
+    { id: 'hextris', name: 'Hextris', link: '/games/hextris/index.html' },
   ];
 
   const [selectedGame, setSelectedGame] = useState(null);
@@ -61,7 +61,7 @@ const Games = () => {
             <h2>Playing {games.find((g) => g.id === selectedGame)?.name}</h2>
             <iframe
               ref={iframeRef}
-              src={`/Personal-Website/games/${selectedGame}/index.html`}
+              src={`/games/${selectedGame}/index.html`}
               style={{
                 width: '100%',
                 height: '80vh',

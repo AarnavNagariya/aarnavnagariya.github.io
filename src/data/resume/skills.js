@@ -55,9 +55,9 @@ const skills = [
     category: ['Tools'],
   },
   {
-    title: 'AWS',
-    competency: 2,
-    category: ['Tools', 'Web Development'],
+    title: 'Unity',
+    competency: 4,
+    category: ['Tools'],
   },
   {
     title: 'Numpy',
@@ -85,7 +85,7 @@ const skills = [
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
-    title: 'HTML + SASS/SCSS/CSS',
+    title: 'HTML + CSS',
     competency: 4,
     category: ['Web Development', 'Languages'],
   },
@@ -112,7 +112,7 @@ const skills = [
   {
     title: 'Data Visualization',
     competency: 4,
-    category: ['Data Science', 'Javascript'],
+    category: ['Data Science'],
   },
   {
     title: 'Pandas',
@@ -128,6 +128,96 @@ const skills = [
     title: 'Scikit-Learn',
     competency: 3,
     category: ['Data Engineering', 'ML Engineering', 'Python'],
+  },
+  {
+    title: 'Snowflake',
+    competency: 2,
+    category: ['Data Engineering', 'ML Engineering', 'Tools', 'Databases'],
+  },
+  {
+    title: 'Data Engineering',
+    competency: 4,
+    category: ['Data Engineering', 'ML Engineering'],
+  },
+  {
+    title: 'Machine Learning',
+    competency: 4,
+    category: ['ML Engineering'],
+  },
+  {
+    title: 'Deep Learning',
+    competency: 3,
+    category: ['ML Engineering'],
+  },
+  {
+    title: 'Computer Vision',
+    competency: 3,
+    category: ['ML Engineering'],
+  },
+  {
+    title: 'Natural Language Processing',
+    competency: 2,
+    category: ['ML Engineering'],
+  },
+  {
+    title: 'Data Analysis',
+    competency: 4,
+    category: ['Data Science', 'Python'],
+  },
+  {
+    title: 'x86 Assembly',
+    competency: 3,
+    category: ['Systems'],
+  },
+  {
+    title: 'C',
+    competency: 5,
+    category: ['Languages', 'Systems'],
+  },
+  {
+    title: 'Computer Architecture',
+    competency: 4,
+    category: ['Systems'],
+  },
+  {
+    title: 'Operating Systems',
+    competency: 4,
+    category: ['Systems'],
+  },
+  {
+    title: 'Verilog',
+    competency: 2,
+    category: ['Systems'],
+  },
+  {
+    title: 'Digital Design',
+    competency: 3,
+    category: ['Systems'],
+  },
+  {
+    title: 'Linear Algebra',
+    competency: 5,
+    category: ['Mathematics'],
+  },
+  {
+    title: 'Real Analysis',
+    competency: 5,
+    category: ['Mathematics'],
+  },
+  {
+    title: 'Probability and Statistics',
+    competency: 4,
+    category: ['Mathematics'],
+  },
+  {
+    title: 'Algebraic Methods in Reaction Networks',
+    competency: 4,
+    category: ['Mathematics'],
+  },
+  {
+    title: 'Applied Optimization',
+    competency: 5,
+    category: ['Mathematics'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 

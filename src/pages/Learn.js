@@ -79,7 +79,7 @@ const Learn = () => {
             <p>Here are Your Learning Notes</p>
             <p>
               These are made/compiled from various sources for credits/references, Feel free to{' '}
-              <a href="/Personal-Website/contact">contact</a>.
+              <a href="/contact">contact</a>.
             </p>
           </div>
         </header>
