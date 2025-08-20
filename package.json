@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.25.9",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-env": "^7.25.3",
     "@babel/preset-react": "^7.25.9",
     "@testing-library/jest-dom": "^5.17.0",
@@ -66,5 +67,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "reactSnap": {
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-accelerated-2d-canvas",
+      "--no-first-run",
+      "--no-zygote",
+      "--disable-gpu"
+    ],
+    "waitFor": 2000,
+    "skipThirdPartyRequests": true
   }
 }
