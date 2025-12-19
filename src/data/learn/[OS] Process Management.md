@@ -54,7 +54,7 @@ A process changes state during its execution:
 4.  **Waiting:** Waiting for some event (like I/O).
 5.  **Terminated:** Finished execution.
 
-![Process States](../images/attachments/process_states.svg)
+<img src="../images/attachments/process_states.svg" width="70%" alt="Process States" />
 
 ### Special Processes
 -   **Orphan Process:** Parent terminated, but child is still running. Adopted by `init`.

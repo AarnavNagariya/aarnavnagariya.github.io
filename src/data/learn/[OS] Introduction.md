@@ -26,7 +26,7 @@ It acts as an **interface** between the user and the computer hardware, hiding t
 -   Hiding hardware complexity.
 -   Facilitating execution of application programs.
 
-![OS Position](../images/attachments/os_position.svg)
+<img src="../images/attachments/os_position.svg" width="50%" alt="OS Position" />
 
 ---
 

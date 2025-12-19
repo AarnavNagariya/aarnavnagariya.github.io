@@ -52,6 +52,8 @@ const Learn = () => {
       return '#f9d3ff'; // Very light purple
     } if (file.startsWith('[STANDARD]')) {
       return '#f9d3d3'; // Very light red
+    } if (file.startsWith('[OS]')) {
+      return '#ffffcc'; // Very light yellow
     }
     return '#f7f7f7'; // Default color
   };
