@@ -7,7 +7,7 @@ const Index = () => (
   <Main
     description={
       "Aarnav Nagariya's personal website, "
-      + ' 4th year Student @ International Institute of Information Technology Hyderabad (IIITH).'
+      + ' final year Student @ International Institute of Information Technology Hyderabad (IIITH).'
     }
   >
     <article className="post" id="index">
@@ -17,7 +17,7 @@ const Index = () => (
             <Link to="/">About this site</Link>
           </h2>
           <p>
-            A site for Aarnav Nagariya, a 4th year Student @ IIITH.
+            A site for Aarnav Nagariya, a final year Student @ IIITH.
           </p>
         </div>
       </header>

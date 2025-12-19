@@ -22,7 +22,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Aarnav. I am a 4th year student at {' '}
+        Hi, I&apos;m Aarnav. I am a final year student at {' '}
         <a href="https://www.iiit.ac.in/"> International Institute of Information Technology Hyderabad.</a> {' '}
         I am a passionate programmer and a quick learner. {' '}
         I like playing and developing games in the free time.
