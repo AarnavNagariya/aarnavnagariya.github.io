@@ -131,7 +131,7 @@ const skills = [
   },
   {
     title: 'Snowflake',
-    competency: 2,
+    competency: 4,
     category: ['Data Engineering', 'ML Engineering', 'Tools', 'Databases'],
   },
   {

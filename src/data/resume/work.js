@@ -13,6 +13,19 @@
  */
 const work = [
   {
+    name: 'Game Theory',
+    position: 'Intern',
+    url: 'https://www.gametheory.in/',
+    startDate: '2025-05-15',
+    endDate: '2025-08-15',
+    summary: 'Game Theory (a Techstars backed company) is "Gamifying" the experience of playing sports. Game Theory is your ultimate multi-sport membership app, giving you unlimited access to 10+ sports, across 40+ premium facilities.',
+    highlights: [
+      'Developed a full-stack web application for remote camera management, enabling real-time image capture, intrinsic and extrinsic camera calibration from Raspberry Pi',
+      'Integrated with AWS S3 for cloud storage and MongoDB for metadata management.',
+      'Streamlined the Entire Image Processing pipeline.',
+    ],
+  },
+  {
     name: 'Accelerize360',
     position: 'Product Manager Intern',
     url: 'https://www.accelerize360.com/',
