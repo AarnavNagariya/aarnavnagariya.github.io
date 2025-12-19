@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <style>
+    .layer { fill: #f0f8ff; stroke: #0066cc; stroke-width: 2; }
+    .text { font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; dominant-baseline: middle; }
+    .arrow { stroke: #333; stroke-width: 2; marker-end: url(#arrowhead); }
+    .label { font-family: Arial, sans-serif; font-size: 12px; fill: #666; }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+
+  <!-- Layers -->
+  <rect x="100" y="50" width="200" height="40" class="layer" />
+  <text x="200" y="70" class="text">7. Application</text>
+
+  <rect x="100" y="100" width="200" height="40" class="layer" />
+  <text x="200" y="120" class="text">6. Presentation</text>
+
+  <rect x="100" y="150" width="200" height="40" class="layer" />
+  <text x="200" y="170" class="text">5. Session</text>
+
+  <rect x="100" y="200" width="200" height="40" class="layer" />
+  <text x="200" y="220" class="text">4. Transport</text>
+
+  <rect x="100" y="250" width="200" height="40" class="layer" />
+  <text x="200" y="270" class="text">3. Network</text>
+
+  <rect x="100" y="300" width="200" height="40" class="layer" />
+  <text x="200" y="320" class="text">2. Data Link</text>
+
+  <rect x="100" y="350" width="200" height="40" class="layer" />
+  <text x="200" y="370" class="text">1. Physical</text>
+
+  <!-- Data Flow Arrows -->
+  <path d="M 80 60 L 80 380" class="arrow" />
+  <text x="70" y="220" class="label" transform="rotate(-90 70,220)">Encapsulation (Sender)</text>
+
+  <path d="M 320 380 L 320 60" class="arrow" />
+  <text x="335" y="220" class="label" transform="rotate(90 335,220)">Decapsulation (Receiver)</text>
+
+</svg>

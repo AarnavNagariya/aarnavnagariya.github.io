@@ -30,6 +30,16 @@ Define the rules how systems communicate with each other over the network.
 ### OSI Model
 7 layers: Application, Presentation, Session, Transport, Network, Data Link, Physical.
 
+<img src="../images/attachments/osi-model.svg" width="50%" alt="OSI Model" />
+
+1.  **Application:** End-user services (HTTP, FTP, SMTP).
+2.  **Presentation:** Data translation, encryption, compression (SSL/TLS).
+3.  **Session:** Manages sessions/connections between applications.
+4.  **Transport:** End-to-end delivery, reliability, flow control (TCP, UDP).
+5.  **Network:** Routing, IP addressing (IP, ICMP).
+6.  **Data Link:** Node-to-node transfer, MAC addressing (Ethernet).
+7.  **Physical:** Hardware transmission of raw bits (Cables, WiFi).
+
 ### Client-Server vs Peer-to-Peer
 
 **Client-Server:**
@@ -99,18 +109,26 @@ Used when migrating from Monolith to Microservices.
 
 ### SAGA Pattern
 Manages distributed transactions across multiple services (since we can't use a single ACID transaction).
+
+![SAGA Pattern](../images/attachments/saga-pattern.svg)
+
 -   **Sequence of Local Transactions:** Each service updates its DB and publishes an event.
--   **Rollback:** If a step fails, compensating transactions are executed to undo previous steps.
+-   **Rollback:** If a step fails, **compensating transactions** are executed to undo previous steps.
 -   **Types:**
-    -   **Choreography:** Services listen to events (Decentralized).
-    -   **Orchestration:** Central coordinator tells services what to do.
+    -   **Choreography:** Services listen to events (Decentralized). Good for simple flows.
+    -   **Orchestration:** Central coordinator tells services what to do. Good for complex flows with many steps.
 
 ### CQRS Pattern
 **Command Query Responsibility Segregation**
+
+![CQRS Pattern](../images/attachments/cqrs-pattern.svg)
+
 -   Separate **Read** (Query) and **Write** (Command) models.
 -   **Writes:** Handle complex logic, validation.
 -   **Reads:** Optimized for retrieval (denormalized views, separate DBs).
 -   Synced asynchronously via events.
+-   **Pros:** Independent scaling of read/write workloads, optimized schemas.
+-   **Cons:** Eventual consistency, increased complexity.
 
 ---
 
@@ -163,6 +181,13 @@ Rough calculations to estimate system capacity.
     -   1 TB = $10^{12}$ bytes
     -   1 PB = $10^{15}$ bytes
 
+### Example: Instagram Storage
+-   **Users:** 100 Million DAU.
+-   **Activity:** 2 photos per user/day.
+-   **Size:** 300 KB per photo.
+-   **Daily Storage:** $100M \times 2 \times 300KB = 60,000 GB = 60 TB/day$.
+-   **10 Year Storage:** $60 TB \times 365 \times 10 \approx 220 PB$.
+
 ---
 
 # SQL vs NoSQL
@@ -179,20 +204,30 @@ Rough calculations to estimate system capacity.
     -   **Document:** MongoDB.
     -   **Columnar:** Cassandra.
     -   **Graph:** Neo4j.
--   **Use Case:** Big Data, high throughput, flexible schema, eventual consistency is acceptable.
+<img src="../images/attachments/token-bucket.svg" width="50%" alt="Token Bucket" />
+
+**Algorithms:**
+1.  **Token Bucket:**
+    -   Tokens added at rate $r$.
+    -   Request consumes a token.
+    -   Allows **bursts** of traffic (up to bucket capacity).
+2.  **Leaky Bucket:**
+    -   Requests enter a queue.
+    -   Processed at a constant rate.
+    -   **Smooths out** traffic bursts.
+3.  **Fixed Window Counter:** Count requests in fixed time windows (e.g., 100 req/min). Can have spikes at window edges.
+4.  **Sliding Window Log:** Track timestamps. Accurate but high memory usage.
+5.  **Sliding Window Counter:** Hybrid approach. Best balance of accuracy and memory.
 
 ---
 
-# Design A Rate Limiter
+# Design Idempotent POST API
 
-Prevents DDoS attacks and server overload (HTTP 429: Too Many Requests).
+**Idempotency:** Making multiple identical requests has the same effect as a single request.
+-   GET, PUT, DELETE are idempotent.
+-   POST is **NOT** idempotent.
 
-**Algorithms:**
-1.  **Token Bucket:** Tokens added at rate $r$. Request consumes token.
-2.  **Leaky Bucket:** Requests enter queue, processed at constant rate.
-3.  **Fixed Window Counter:** Count requests in fixed time windows.
-4.  **Sliding Window Log:** Track timestamps (accurate but expensive).
-5.  **Sliding Window Counter:** Hybrid approach.
+<img src="../images/attachments/idempotency-flow.svg" width="60%" alt="Idempotency Flow" /> Hybrid approach.
 
 ---
 
