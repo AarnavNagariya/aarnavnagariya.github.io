@@ -20,7 +20,7 @@
   <text x="200" y="150" class="label">Business Logic</text>
   <text x="200" y="200" class="label">Data Access</text>
   
-  <path d="M 200 320 L 200 350" class="arrow" />
+  <path d="M 200 325 L 200 345" class="arrow" />
   <path d="M 170 350 Q 200 350 230 350 L 230 380 L 170 380 L 170 350" class="db" />
   <text x="200" y="375" class="label" style="font-size:12px">Single DB</text>
 
@@ -30,19 +30,19 @@
   <!-- Service A -->
   <rect x="450" y="100" width="80" height="60" class="micro" />
   <text x="490" y="135" class="label" style="font-size:12px">Service A</text>
-  <path d="M 490 160 L 490 180" class="arrow" />
+  <path d="M 490 165 L 490 175" class="arrow" />
   <path d="M 475 180 L 505 180 L 505 200 L 475 200 Z" class="db" />
   
   <!-- Service B -->
   <rect x="560" y="100" width="80" height="60" class="micro" />
   <text x="600" y="135" class="label" style="font-size:12px">Service B</text>
-  <path d="M 600 160 L 600 180" class="arrow" />
+  <path d="M 600 165 L 600 175" class="arrow" />
   <path d="M 585 180 L 615 180 L 615 200 L 585 200 Z" class="db" />
 
   <!-- Service C -->
   <rect x="670" y="100" width="80" height="60" class="micro" />
   <text x="710" y="135" class="label" style="font-size:12px">Service C</text>
-  <path d="M 710 160 L 710 180" class="arrow" />
+  <path d="M 710 165 L 710 175" class="arrow" />
   <path d="M 695 180 L 725 180 L 725 200 L 695 200 Z" class="db" />
 
   <!-- API Gateway -->

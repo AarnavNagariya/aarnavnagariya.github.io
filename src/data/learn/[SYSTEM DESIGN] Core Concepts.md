@@ -134,7 +134,7 @@ Manages distributed transactions across multiple services (since we can't use a 
 
 Used in Load Balancers and Distributed Caches/DBs to minimize data movement when servers are added/removed.
 
-![Consistent Hashing](../images/attachments/consistent-hashing.svg)
+<img src="../images/attachments/consistent-hashing.svg" width="75%" alt="Consistent Hashing" />
 
 -   **Concept:** Map both Keys and Servers to a circular ring (0-360°).
 -   **Lookup:** Key maps to the first server found moving clockwise.

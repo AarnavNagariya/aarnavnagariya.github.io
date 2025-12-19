@@ -31,15 +31,15 @@
   <!-- Keys -->
   <circle cx="391" cy="108" r="8" class="key" /> <!-- ~45 deg -->
   <text x="400" y="100" class="label">K1</text>
-  <path d="M 391 108 A 200 200 0 0 1 450 250" class="arrow" />
+  <path d="M 391 108 A 200 200 0 0 1 440 240" class="arrow" />
 
   <circle cx="391" cy="391" r="8" class="key" /> <!-- ~135 deg -->
   <text x="400" y="400" class="label">K2</text>
-  <path d="M 391 391 A 200 200 0 0 1 250 450" class="arrow" />
+  <path d="M 391 391 A 200 200 0 0 1 260 440" class="arrow" />
 
   <circle cx="108" cy="391" r="8" class="key" /> <!-- ~225 deg -->
   <text x="80" y="400" class="label">K3</text>
-  <path d="M 108 391 A 200 200 0 0 1 50 250" class="arrow" />
+  <path d="M 108 391 A 200 200 0 0 1 60 260" class="arrow" />
 
   <!-- Title -->
   <text x="250" y="250" class="label" style="text-anchor:middle; font-size:18px">Consistent Hashing Ring</text>
