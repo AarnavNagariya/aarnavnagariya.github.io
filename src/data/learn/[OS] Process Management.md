@@ -54,7 +54,7 @@ A process changes state during its execution:
 4.  **Waiting:** Waiting for some event (like I/O).
 5.  **Terminated:** Finished execution.
 
-![Process States](./assets/process_states.svg)
+![Process States](../images/attachments/process_states.svg)
 
 ### Special Processes
 -   **Orphan Process:** Parent terminated, but child is still running. Adopted by `init`.
@@ -113,4 +113,4 @@ The process of saving the state of the current process (in its PCB) and loading 
 -   Allows processes to move between queues.
 -   Uses **Aging** and feedback to prevent starvation and handle different process types dynamically.
 
-![MLFQ Scheduling](./assets/mlfq_scheduling.svg)
+![MLFQ Scheduling](../images/attachments/mlfq_scheduling.svg)

@@ -26,7 +26,7 @@ It acts as an **interface** between the user and the computer hardware, hiding t
 -   Hiding hardware complexity.
 -   Facilitating execution of application programs.
 
-![OS Position](./assets/os_position.svg)
+![OS Position](../images/attachments/os_position.svg)
 
 ---
 
@@ -86,7 +86,7 @@ Where application software runs. Apps interact with the kernel via System Calls.
 | **Performance** | High (fast communication) | Slow (context switch overhead) | Balanced |
 | **Examples** | Linux, Unix, MS-DOS | L4 Linux, Symbian, MINIX | MacOS, Windows NT/7/10 |
 
-![Kernel Types](./assets/kernel_types.svg)
+![Kernel Types](../images/attachments/kernel_types.svg)
 
 ---
 

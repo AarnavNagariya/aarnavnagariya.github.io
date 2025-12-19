@@ -146,7 +146,7 @@ Deadlock can arise if **all four** hold simultaneously:
 3.  **No Preemption:** Resources cannot be forcibly taken.
 4.  **Circular Wait:** P0 waits for P1, P1 waits for P2... Pn waits for P0.
 
-![Deadlock RAG](./assets/deadlock_rag.svg)
+![Deadlock RAG](../images/attachments/deadlock_rag.svg)
 
 ### Handling Deadlocks
 
