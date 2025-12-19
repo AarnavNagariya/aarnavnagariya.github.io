@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500">
+  <!-- Styles -->
+  <style>
+    .circle { fill: rgba(100, 149, 237, 0.3); stroke: #333; stroke-width: 2; }
+    .label { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; text-anchor: middle; }
+    .region { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; text-anchor: middle; fill: #333; }
+  </style>
+
+  <!-- Circles -->
+  <circle cx="200" cy="200" r="130" class="circle" />
+  <circle cx="400" cy="200" r="130" class="circle" />
+  <circle cx="300" cy="370" r="130" class="circle" />
+
+  <!-- Labels -->
+  <text x="150" y="150" class="label">Consistency</text>
+  <text x="450" y="150" class="label">Availability</text>
+  <text x="300" y="450" class="label">Partition Tolerance</text>
+
+  <!-- Intersections -->
+  <text x="300" y="200" class="region">CA</text>
+  <text x="230" y="320" class="region">CP</text>
+  <text x="370" y="320" class="region">AP</text>
+  
+  <!-- Title -->
+  <text x="300" y="30" class="label" style="font-size: 24px;">CAP Theorem</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <style>
+    .box { fill: #f0f0f0; stroke: #333; stroke-width: 2; }
+    .micro { fill: #e6f3ff; stroke: #0066cc; stroke-width: 2; }
+    .db { fill: #fff0e6; stroke: #cc6600; stroke-width: 2; }
+    .label { font-family: Arial, sans-serif; font-size: 16px; text-anchor: middle; }
+    .title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; text-anchor: middle; }
+    .arrow { stroke: #333; stroke-width: 2; marker-end: url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" />
+    </marker>
+  </defs>
+
+  <!-- Monolith -->
+  <text x="200" y="40" class="title">Monolithic Architecture</text>
+  <rect x="100" y="70" width="200" height="250" class="box" />
+  <text x="200" y="100" class="label">User Interface</text>
+  <text x="200" y="150" class="label">Business Logic</text>
+  <text x="200" y="200" class="label">Data Access</text>
+  
+  <path d="M 200 320 L 200 350" class="arrow" />
+  <path d="M 170 350 Q 200 350 230 350 L 230 380 L 170 380 L 170 350" class="db" />
+  <text x="200" y="375" class="label" style="font-size:12px">Single DB</text>
+
+  <!-- Microservices -->
+  <text x="600" y="40" class="title">Microservices Architecture</text>
+  
+  <!-- Service A -->
+  <rect x="450" y="100" width="80" height="60" class="micro" />
+  <text x="490" y="135" class="label" style="font-size:12px">Service A</text>
+  <path d="M 490 160 L 490 180" class="arrow" />
+  <path d="M 475 180 L 505 180 L 505 200 L 475 200 Z" class="db" />
+  
+  <!-- Service B -->
+  <rect x="560" y="100" width="80" height="60" class="micro" />
+  <text x="600" y="135" class="label" style="font-size:12px">Service B</text>
+  <path d="M 600 160 L 600 180" class="arrow" />
+  <path d="M 585 180 L 615 180 L 615 200 L 585 200 Z" class="db" />
+
+  <!-- Service C -->
+  <rect x="670" y="100" width="80" height="60" class="micro" />
+  <text x="710" y="135" class="label" style="font-size:12px">Service C</text>
+  <path d="M 710 160 L 710 180" class="arrow" />
+  <path d="M 695 180 L 725 180 L 725 200 L 695 200 Z" class="db" />
+
+  <!-- API Gateway -->
+  <rect x="450" y="250" width="300" height="40" class="box" style="fill:#ddd" />
+  <text x="600" y="275" class="label">API Gateway / Orchestrator</text>
+
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <style>
+    .ring { fill: none; stroke: #333; stroke-width: 4; }
+    .server { fill: #0066cc; stroke: #fff; stroke-width: 2; }
+    .key { fill: #cc0000; stroke: #fff; stroke-width: 2; }
+    .label { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
+    .arrow { stroke: #666; stroke-width: 1; stroke-dasharray: 4,4; marker-end: url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+    </marker>
+  </defs>
+
+  <!-- Ring -->
+  <circle cx="250" cy="250" r="200" class="ring" />
+
+  <!-- Servers -->
+  <circle cx="250" cy="50" r="15" class="server" /> <!-- Top (0) -->
+  <text x="240" y="30" class="label">Server A</text>
+
+  <circle cx="450" cy="250" r="15" class="server" /> <!-- Right (90) -->
+  <text x="460" y="250" class="label">Server B</text>
+
+  <circle cx="250" cy="450" r="15" class="server" /> <!-- Bottom (180) -->
+  <text x="240" y="480" class="label">Server C</text>
+
+  <circle cx="50" cy="250" r="15" class="server" /> <!-- Left (270) -->
+  <text x="10" y="250" class="label">Server D</text>
+
+  <!-- Keys -->
+  <circle cx="391" cy="108" r="8" class="key" /> <!-- ~45 deg -->
+  <text x="400" y="100" class="label">K1</text>
+  <path d="M 391 108 A 200 200 0 0 1 450 250" class="arrow" />
+
+  <circle cx="391" cy="391" r="8" class="key" /> <!-- ~135 deg -->
+  <text x="400" y="400" class="label">K2</text>
+  <path d="M 391 391 A 200 200 0 0 1 250 450" class="arrow" />
+
+  <circle cx="108" cy="391" r="8" class="key" /> <!-- ~225 deg -->
+  <text x="80" y="400" class="label">K3</text>
+  <path d="M 108 391 A 200 200 0 0 1 50 250" class="arrow" />
+
+  <!-- Title -->
+  <text x="250" y="250" class="label" style="text-anchor:middle; font-size:18px">Consistent Hashing Ring</text>
+
+</svg>
