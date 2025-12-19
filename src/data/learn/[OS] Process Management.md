@@ -54,17 +54,7 @@ A process changes state during its execution:
 4.  **Waiting:** Waiting for some event (like I/O).
 5.  **Terminated:** Finished execution.
 
-```mermaid
-stateDiagram-v2
-    [*] --> New
-    New --> Ready: Admitted
-    Ready --> Running: Scheduler Dispatch
-    Running --> Ready: Interrupt / Time Quantum
-    Running --> Waiting: I/O or Event Wait
-    Waiting --> Ready: I/O or Event Completion
-    Running --> Terminated: Exit
-    Terminated --> [*]
-```
+![Process States](./assets/process_states.svg)
 
 ### Special Processes
 -   **Orphan Process:** Parent terminated, but child is still running. Adopted by `init`.
@@ -123,11 +113,4 @@ The process of saving the state of the current process (in its PCB) and loading 
 -   Allows processes to move between queues.
 -   Uses **Aging** and feedback to prevent starvation and handle different process types dynamically.
 
-```mermaid
-graph TD
-    Q1[Queue 1: High Priority, Small TQ] -->|Not Finished| Q2[Queue 2: Medium Priority, Medium TQ]
-    Q2 -->|Not Finished| Q3[Queue 3: FCFS]
-    style Q1 fill:#f9f
-    style Q2 fill:#bbf
-    style Q3 fill:#ddd
-```
+![MLFQ Scheduling](./assets/mlfq_scheduling.svg)

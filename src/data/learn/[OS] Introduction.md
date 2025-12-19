@@ -26,13 +26,7 @@ It acts as an **interface** between the user and the computer hardware, hiding t
 -   Hiding hardware complexity.
 -   Facilitating execution of application programs.
 
-```mermaid
-graph TD
-    User --> App[Application Programs]
-    App --> OS[Operating System]
-    OS --> HW[Computer Hardware]
-    style OS fill:#f9f,stroke:#333,stroke-width:2px
-```
+![OS Position](./assets/os_position.svg)
 
 ---
 
@@ -92,18 +86,7 @@ Where application software runs. Apps interact with the kernel via System Calls.
 | **Performance** | High (fast communication) | Slow (context switch overhead) | Balanced |
 | **Examples** | Linux, Unix, MS-DOS | L4 Linux, Symbian, MINIX | MacOS, Windows NT/7/10 |
 
-```mermaid
-graph TD
-    subgraph Monolithic
-    A[App] -- System Call --> K[Kernel: FS, IPC, MM, Drivers]
-    K --> H[Hardware]
-    end
-    subgraph Microkernel
-    B[App] -- IPC --> S[Servers: FS, Drivers]
-    S -- IPC --> MK[Microkernel: IPC, MM, Scheduling]
-    MK --> H2[Hardware]
-    end
-```
+![Kernel Types](./assets/kernel_types.svg)
 
 ---
 

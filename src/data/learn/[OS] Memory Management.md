@@ -57,13 +57,7 @@ Physical Address = `(Frame Number f * Frame Size) + Offset d`
 ### TLB (Translation Look-aside Buffer)
 A hardware cache to speed up address translation. Stores recent Page -> Frame mappings to avoid accessing the Page Table in main memory.
 
-```mermaid
-graph LR
-    CPU((CPU)) -->|Logical Addr| TLB{TLB}
-    TLB -->|Hit| PhyMem[Physical Memory]
-    TLB -->|Miss| PT[Page Table]
-    PT --> PhyMem
-```
+![TLB Architecture](./assets/tlb_architecture.svg)
 
 ---
 

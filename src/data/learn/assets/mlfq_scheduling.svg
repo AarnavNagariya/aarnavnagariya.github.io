@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <style>
+      .queue { fill: #e3f2fd; stroke: #1565c0; stroke-width: 2px; }
+      .text { font-family: sans-serif; font-size: 14px; text-anchor: middle; }
+      .label { font-family: sans-serif; font-size: 12px; fill: #555; }
+      .arrow { stroke: #333; stroke-width: 1.5px; marker-end: url(#arrowhead); fill: none; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+
+  <!-- Queue 1 -->
+  <rect x="50" y="30" width="300" height="40" class="queue" />
+  <text x="200" y="55" class="text">Queue 1: High Priority (RR, TQ=8)</text>
+
+  <!-- Queue 2 -->
+  <rect x="50" y="110" width="300" height="40" class="queue" />
+  <text x="200" y="135" class="text">Queue 2: Medium Priority (RR, TQ=16)</text>
+
+  <!-- Queue 3 -->
+  <rect x="50" y="190" width="300" height="40" class="queue" />
+  <text x="200" y="215" class="text">Queue 3: Low Priority (FCFS)</text>
+
+  <!-- Transitions -->
+  <!-- Q1 -> Q2 -->
+  <path d="M 300 70 Q 350 90 300 110" class="arrow" />
+  <text x="355" y="95" class="label">Not Finished</text>
+
+  <!-- Q2 -> Q3 -->
+  <path d="M 300 150 Q 350 170 300 190" class="arrow" />
+  <text x="355" y="175" class="label">Not Finished</text>
+
+  <!-- Input -->
+  <line x1="20" y1="50" x2="50" y2="50" class="arrow" />
+  <text x="20" y="40" class="label">New Job</text>
+
+</svg>

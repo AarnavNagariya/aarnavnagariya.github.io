@@ -146,17 +146,7 @@ Deadlock can arise if **all four** hold simultaneously:
 3.  **No Preemption:** Resources cannot be forcibly taken.
 4.  **Circular Wait:** P0 waits for P1, P1 waits for P2... Pn waits for P0.
 
-```mermaid
-graph TD
-    P1((Process 1)) -- Holds --> R1[Resource 1]
-    P1 -- Waits for --> R2[Resource 2]
-    P2((Process 2)) -- Holds --> R2
-    P2 -- Waits for --> R1
-    style P1 fill:#f9f
-    style P2 fill:#f9f
-    style R1 fill:#bbf
-    style R2 fill:#bbf
-```
+![Deadlock RAG](./assets/deadlock_rag.svg)
 
 ### Handling Deadlocks
 
